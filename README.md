@@ -56,4 +56,4 @@ galeryphotos/
 - Tests (si tienes)
 - Documentación de tu API (si es pública)
 
-¿Quieres que lo adapte específicamente para Next.js, Vue, Flutter u otra tecnología?
+
