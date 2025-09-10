@@ -1,6 +1,6 @@
 # 📸 GaleryPhotos
 
-**GaleryPhotos** es una aplicación movil moderna para gestionar, visualizar y compartir imágenes. Diseñada con una interfaz amigable y responsiva, permite a los usuarios subir fotos, verlas en una galería elegante y realizar acciones básicas como eliminar o ampliar imágenes.
+**GaleryPhotos** es una aplicación web moderna para gestionar, visualizar y compartir imágenes. Diseñada con una interfaz amigable y responsiva, permite a los usuarios subir fotos, verlas en una galería elegante y realizar acciones básicas como eliminar o ampliar imágenes.
 
 ---
 
@@ -34,6 +34,25 @@
 ```bash
 git clone https://github.com/tu-usuario/galeryphotos.git
 cd galeryphotos
+
+2. Instala dependencias
+Backend
+bash
+Copiar código
+cd server
+npm install
+npm run dev
+Frontend
+bash
+Copiar código
+cd client
+npm install
+npm run dev
+La app estará disponible en http://localhost:5173 (o el puerto de tu frontend).
+
+📂 Estructura del proyecto
+pgsql
+Copiar código
 galeryphotos/
 ├── client/           # Aplicación frontend (React)
 │   ├── src/
@@ -47,13 +66,31 @@ galeryphotos/
 ├── package.json
 └── README.md
 
----
+✅ Próximas funcionalidades
+ Autenticación de usuarios (login/register)
 
-### ¿Qué más puedo incluir?
+ Álbumes personalizados por usuario
 
-- Un ejemplo de `.env.example` si usas claves privadas
-- Configuración para despliegue (Vercel, Netlify, Heroku)
-- Tests (si tienes)
-- Documentación de tu API (si es pública)
+ Likes o favoritos
 
+ Comentarios en fotos
 
+ Descarga de imágenes
+
+ Modo oscuro
+
+🤝 Contribuciones
+¿Quieres colaborar? ¡Eres bienvenido!
+
+Haz un fork del proyecto
+
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad)
+
+Haz tus cambios y haz commit (git commit -m 'Agrega nueva funcionalidad')
+
+Haz push a tu rama (git push origin feature/nueva-funcionalidad)
+
+Abre un Pull Request
+
+📄 Licencia
+Este proyecto está licenciado bajo la MIT License. 
